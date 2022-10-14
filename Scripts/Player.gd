@@ -20,7 +20,7 @@ func get_input():
 	if velocity.length() > 0:
 		velocity = velocity.normalized() * speed
 	else:
-		$AnimatedSprite.frame = 0
+		$AnimatedSprite.frame = 1
 		$AnimatedSprite.stop()
 	
 	velocity = move_and_slide(velocity, Vector2.UP)	
