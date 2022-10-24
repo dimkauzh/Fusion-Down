@@ -1,3 +1,3 @@
 extends Node
 
-var enemy
+var player_health
