@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=2]
 
-[ext_resource path="res://Assets/Main-Menu/Screenshot 2022-10-07 at 21.49.22.png" type="Texture" id=1]
+[ext_resource path="res://Assets/Main-Menu/Screenshot 2022-10-14 at 16.55.50.png" type="Texture" id=1]
 [ext_resource path="res://Assets/Font/Pixel-Font.TTF" type="DynamicFontData" id=2]
 [ext_resource path="res://Scripts/Main-Menu.gd" type="Script" id=3]
 
 [sub_resource type="DynamicFont" id=1]
-size = 78
+size = 106
 font_data = ExtResource( 2 )
 
 [sub_resource type="DynamicFont" id=2]
@@ -25,16 +25,13 @@ expand = true
 
 [node name="Label" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-anchor_left = 0.156
-anchor_top = 0.067
-anchor_right = 0.875
-anchor_bottom = 0.198
-margin_left = 0.255997
-margin_top = -0.200001
-margin_right = -1.00006
-margin_bottom = 0.199989
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -367.5
+margin_right = 367.5
+margin_bottom = 107.0
 custom_fonts/font = SubResource( 1 )
-text = "Classic Action RPG"
+text = "Fusion Dawn"
 
 [node name="Button" type="Button" parent="."]
 modulate = Color( 0, 0, 0, 1 )
